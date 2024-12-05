@@ -1,0 +1,11 @@
+panjang = len(var_list)
+print(panjang)
+
+maksimal = max(var_list)
+print(maksimal)
+
+minimal = min(var_list)
+print(minimal)
+
+banyak = var_list.count(605132)
+print(banyak)
