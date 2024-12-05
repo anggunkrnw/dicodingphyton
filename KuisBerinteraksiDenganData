@@ -1,0 +1,29 @@
+#1
+x = { 'name': 'Coding', 'age': 20, 'isMarried': False }
+x ['name'] = "Dicoding"
+print(x)
+
+'''
+output : TypeError
+'''
+
+#2
+x = { 'name': 'Coding', 'age': 20, 'isMarried': False }
+x ['name'] = "Dicoding"
+print(x)
+'''
+output : {'name': 'Dicoding', 'age': 20, 'isMarried': False}
+'''
+
+#3
+'''
+Python merupakan bahasa pemrograman yang menerapkan loosely typed. Apa itu loosely typed? 
+Bahasa pemrograman yang tidak mengharuskan deklarasi tipe data variabel secara eksplisit.
+'''
+
+#4
+name = 'Dicoding Indonesia'
+print(f"Hello, saya belajar coding di {name}")
+'''
+output : Hello, saya belajar coding di Dicoding Indonesia
+'''
